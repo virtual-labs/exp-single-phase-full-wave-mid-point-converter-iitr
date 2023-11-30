@@ -1,39 +1,55 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "A single-phase full wave mid-point type rectifier and bridge type requires how many thyristors?",
+			"answers": {
+				"a": "1, 2",
+				"b": "2, 4",
+				"c": "3, 6",
+				"d": "2, 6"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "If the maximum value of applied voltage for a full-wave center tapped (M-2) rectifier is 30 V, find the magnitude of ripple voltage?",
+			"answers": {
+				"a": "83.88",
+				"b": "84.52",
+				"c": "87.62",
+				"d": "89.59"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "The angle of conduction in silicon-controlled rectifiers circuit changed by which voltage?",
+			"answers": {
+				"a": "Anode",
+				"b": "Cathode",
+				"c": "Gate",
+				"d": "None of the above"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single phase full wave mid-point SCR converter, uses a 230/200 V transformer with the centre tap on the secondary side. How much is P.I.V. per SCR?",
+			"answers": {
+				"a": "100 V",
+				"b": "214 V",
+				"c": "141 V",
+				"d": "282 V"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "A single phase mid-point full-wave SCR converter with maximum mid-point voltage of V<sub>m</sub> volts. How much average output voltage across a resistive load is developed at firing delay angles of 0 and π/2 rad?",
+			"answers": {
+				"a": "2Vm/π, Vm/π",
+				"b": "Vm/π, Vm/2π",
+				"c": "Vm/2π, Vm/π",
+				"d": "Vm/π, -Vm/π"
+			},
+			"correctAnswer": "a"
+		}
+	]
 }

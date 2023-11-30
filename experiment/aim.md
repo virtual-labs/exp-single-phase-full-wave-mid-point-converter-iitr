@@ -1,1 +1,1 @@
-### Aim of the experiment
+### To study the single phase full wave mid-point converter with R load and RL load.
