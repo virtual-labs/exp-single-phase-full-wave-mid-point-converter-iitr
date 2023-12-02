@@ -1,5 +1,5 @@
-# Procedure
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Single Phase Full Wave Mid-Point Converter With R Load </h2>
+
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px; font-weight: bold;padding-bottom: 4px;"> Single Phase Full Wave Mid-Point Converter With R Load </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 <b>STEP 1:</b> Drag and drop the components in the workspace to create the circuit.<br /><br />
@@ -23,14 +23,14 @@
 <b>STEP 8:</b> Click on the <b>PRINT</b> button to take out the print of the webpage.<br /><br />
 <b>STEP 9:</b> Click on the <b>RESET</b> button to reload the webpage.</br></div>
 
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Single Phase Full Wave Mid-Point Converter With RL Load </h2>
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px; font-weight: bold;padding-bottom: 4px;"> Single Phase Full Wave Mid-Point Converter With RL Load </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 <b>STEP 1:</b> Drag and drop the components in the workspace to create the circuit.<br /><br />
 <b>No. of required components: </b><br /><br />
 <b>AC Source – 1, 3-W Transformer - 1, Thyristor - 2, Gate Pulse - 2,</b><br /><br />
 <b>Resistor - 1, Inductor - 1, Ammeter - 1, Voltmeter – 6, Ground – 2 </b><br />  <br />
-<img src="images\Rlload.Jpg" height="500px" alt=""></br></br>
+<img src="images\Rlload.jpg" height="500px" alt=""></br></br>
 <b>STEP 2:</b> Make the connections as per the instructions given below:<br /><br />
 <b>(a)</b> (01-03, 02-04, 03-05, 04-06, 07-12)<br /><br />
 <b>(b)</b> (10-12, 11-13, 13-24, 14-15, 15-16)<br /><br />
