@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "A single-phase full wave mid-point type rectifier and bridge type requires how many thyristors?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "a"
 		}
 	]
-}

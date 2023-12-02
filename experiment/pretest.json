@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "How much is the efficiency of centre tapped full wave rectifier?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "b"
 		}
 	]
-}
+
 
 
 
