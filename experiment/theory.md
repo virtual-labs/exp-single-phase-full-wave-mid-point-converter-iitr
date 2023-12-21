@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -32,13 +40,13 @@ The output dc voltage across the resistive load is given by<br>
 
 <center>
 
-$V_{dc} = \frac {1}{\pi} \int_{\alpha}^{\pi} V_{max}\, sinwt\, dwt$
+$$V_{dc} = \frac {1}{\pi} \int_{\alpha}^{\pi} V_{max}\ sinwt \ dwt$$
 
 </center>
 
 <center>
 
-$V_{dc} = \frac {V_{max}}{\pi}(1+cos\alpha)..........(1)$
+$$V_{dc} = \frac {V_{max}}{\pi}(1+cos\alpha)..........(1)$$
 
 </center>
 
@@ -46,7 +54,7 @@ The average load current is given by<br>
 
 <center>
 
-$I_{dc}\,=\,\frac {V_{dc}}{R}\,=\,\frac {V_{max}}{\pi R}\,(1+cos\alpha)..........(2)$
+$$I_{dc} = \frac {V_{dc}}{R} = \frac {V_{max}}{\pi R}(1+cos\alpha)..........(2)$$
 
 </center>
 
@@ -54,13 +62,13 @@ The rms of output voltage is<br>
 
 <center>
 
-$V_{o(rms)} = \left[ \frac {1}{\pi} \int_{0}^{\pi} V_{max}^2\, sin^2wt\, dwt \right]^{1/2}$
+$$V_{o~(rms)} = \left[ \frac {1}{\pi} \int_{0}^{\pi} V_{max}^2 ~ sin^2wt ~ dwt \right]^{1/2}$$
 
 </center>
 
 <center>
 
-$V_{o(rms)} = V_{max} \left[ \frac {\pi-\alpha}{2\pi} + \frac {sin2\alpha}{4\pi} \right]^{1/2}..........(3)$
+$$V_{o~(rms)} = V_{max} \left[ \frac {\pi-\alpha}{2\pi} + \frac {sin2\alpha}{4\pi} \right]^{1/2}..........(3)$$
 
 </center>
 
@@ -68,7 +76,7 @@ The rms of output current is<br>
 
 <center>
 
-$I_{o(rms)}\,=\,\frac {V_{o(rms)}}{R}\,=\, \frac {V_{max}}{R} \left[ \frac {\pi-\alpha}{2\pi} + \frac {sin2\alpha}{4\pi} \right]^{1/2}..........(4)$
+$$I_{o~(rms)} = \frac {V_{o~(rms)}}{R} = \frac {V_{max}}{R} \left[ \frac {\pi-\alpha}{2\pi} + \frac {sin2\alpha}{4\pi} \right]^{1/2}..........(4)$$
 
 </center>
 
@@ -82,17 +90,17 @@ $I_{o(rms)}\,=\,\frac {V_{o(rms)}}{R}\,=\, \frac {V_{max}}{R} \left[ \frac {\pi-
 
 <center><img src="images\RL load waveform.png" alt="Input waveform" height="600" width="550" style="mix-blend-mode: darken; -webkit-filter:contrast(120%);"></center>
 <center><b style="font-size:18px;">Fig. 4 Waveforms of Single Phase Full Wave Mid-point Converter with RL Load</b></center><br>
-In positive half cycle thyristor TH1 conducts when it is fired at an angle α. When ωt = π the cycle reverses and the voltage at terminal A goes negative while at terminal B it goes positive. At this value of angle thyristor TH1 still conducts due to current circulated as a result of decay of energy stored in the inductor. The rate of decay is determined by L/R ratio. When the energy stored in the inductor falls to zero, thyristor TH<sub>1</sub> is turned off and the load current falls to zero value at an angle called extinc­tion angle β. The extinc­tion angle β may be greater than, equal to, or less than the firing angle α depending upon whether the value of in­ductance is more than, equal to or less than the critical value respectively.<br><br>
+In positive half cycle thyristor TH1 conducts when it is fired at an angle α. When ωt = π the cycle reverses and the voltage at terminal A goes negative while at terminal B it goes positive. At this value of angle thyristor TH1 still conducts due to current circulated as a result of decay of energy stored in the inductor. The rate of decay is determined by L/R ratio. When the energy stored in the inductor falls to zero, thyristor TH<sub>1</sub> is turned off and the load current falls to zero value at an angle called extinc­tion angle β. The extinc­tion angle β may be greater than, equal to, or less than the firing angle α depending upon whether the value of in­ductance is more than, equal to or less than the critical value respectively.<br>
 
 <center>
 
-$V_{dc} = \int_{\alpha}^{\pi+\alpha} V_{max}\, sinwt\, dwt$
+$$V_{dc} = \int_{\alpha}^{\pi+\alpha} V_{max} ~ sinwt ~ dwt$$
 
 </center>
 
 <center>
 
-$V_{dc} = \frac {2V_{max}}{\pi}cos\alpha..........(5)$
+$$V_{dc} = \frac {2V_{max}}{\pi}cos\alpha..........(5)$$
 
 </center>
 
