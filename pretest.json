@@ -1,0 +1,56 @@
+[
+		{
+			"question": "How much is the efficiency of centre tapped full wave rectifier?",
+			"answers": {
+				"a": "50 %",
+				"b": "40.6 %",
+				"c": "81.2 %",
+				"d": "45.3 %"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "SCRs with a peak forward rating of 2 KV and an average on-state current rating of 50 A are used in a single phase mid-point converter. If the factor of safety is 2.5 then how much power can be handled by this converter?",
+			"answers": {
+				"a": "12.75 KW",
+				"b": "10 KW",
+				"c": "15.5 KW",
+				"d": "None of these"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "For a silicon controlled rectifier to be turned on the anode current should be greater than what?",
+			"answers": {
+				"a": "Trigger current",
+				"b": "Anode current",
+				"c": "Cathode current",
+				"d": "Holding current"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "In the forward blocking mode of a silicon controlled rectifier, the SCR is in which mode?",
+			"answers": {
+				"a": "ON state",
+				"b": "Natural state",
+				"c": "Forward biased state",
+				"d": "OFF state"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "What is the formula of output rms voltage for single phase full wave mid-point converter with R load?",
+			"answers": {
+				"a": "Vmax [(π-α)/(3π) + (sin2α)/(4π)]^(1/2)",
+				"b": "Vmax [(π-α)/(2π) + (sin2α)/(4π)]^(1/2)",
+				"c": "Vmax [(π-α)/(π) + (sin2α)/(2π)]^(1/2)",
+				"d": "Vmax [(π+α)/(2π) + (sin2α)/(4π)]^(1/2)"
+			},
+			"correctAnswer": "b"
+		}
+	]
+
+
+
+
